@@ -27,6 +27,16 @@
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
                     </a>
                 </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/hello']">
+                        <span class='glyphicon glyphicon-user'></span> Say Hello
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/weather']">
+                        <span class='glyphicon glyphicon-cloud'></span> Weather
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
